@@ -19,7 +19,7 @@ module.exports = {
 				'20s': '20s',
 			},
 			backgroundImage: {
-				wave: 'url("./src/assets/wave.png")',
+				wave: 'url("./wave.png")',
 			},
 			colors: {
 				blueBG: '#4779f7',
