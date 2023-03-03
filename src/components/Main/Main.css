@@ -1,0 +1,15 @@
+.wave {
+	@apply absolute bottom-0 left-0 w-full h-[10vh] bg-wave bg-[length:100vw_10vh] md:h-[20vh] md:bg-[length:100vw_20vh];
+}
+.wave1 {
+	@apply bottom-0 animate-wave duration-20s delay-0s opacity-90 z-40;
+}
+.wave2 {
+	@apply bottom-2.5 animate-wave-reverse duration-15s -delay-5s opacity-70 z-30;
+}
+.wave3 {
+	@apply bottom-[15px] animate-wave duration-10s -delay-2s opacity-40 z-20;
+}
+.wave4 {
+	@apply bottom-5 animate-wave-reverse duration-5s -delay-5s opacity-50 z-10;
+}
