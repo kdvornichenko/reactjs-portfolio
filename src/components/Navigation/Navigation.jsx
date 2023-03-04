@@ -12,7 +12,8 @@ const Navigation = () => {
 
 	const handleNav = () => {
 		window.innerWidth <= 768 && setNav(!nav)
-		document.body.classList.toggle('overflow-hidden')
+		ref.current.className == 'mobile' &&
+			document.body.classList.toggle('overflow-hidden')
 	}
 
 	const setClass = async () => {
@@ -36,7 +37,7 @@ const Navigation = () => {
 	}, [])
 
 	return (
-		<div>
+		<div className="relative z-50">
 			<AiOutlineMenu
 				onClick={handleNav}
 				className="fixed top-4 right-4 z-[99] md:hidden"

@@ -3,7 +3,55 @@
 @tailwind utilities;
 
 @layer base {
+	@font-face {
+		font-family: 'Vk';
+		font-weight: 400;
+		src: url('../src/assets/fonts/VKSansDisplay-Regular.ttf');
+	}
+
+	@font-face {
+		font-family: 'Vk';
+		font-weight: 500;
+		src: url('../src/assets/fonts/VKSansDisplay-Medium.ttf');
+	}
+
+	@font-face {
+		font-family: 'Vk';
+		font-weight: 600;
+		src: url('../src/assets/fonts/VKSansDisplay-DemiBold.ttf');
+	}
+	@font-face {
+		font-family: 'Vk';
+		font-weight: 700;
+		src: url('../src/assets/fonts/VKSansDisplay-Bold.ttf');
+	}
+
 	* {
 		@apply scroll-smooth;
+	}
+
+	html {
+		font-family: 'Vk';
+	}
+
+	h2 {
+		@apply text-2xl sm:text-3xl md:text-4xl;
+	}
+}
+
+@layer utilities {
+	@variants responsive {
+		.text-shadow {
+			text-shadow: 3px 3px 3px #333;
+		}
+		.text-shadow-md {
+			text-shadow: 4px 4px 8px #333;
+		}
+		.text-shadow-lg {
+			text-shadow: 15px 15px 30px #333;
+		}
+		.text-shadow-none {
+			text-shadow: none;
+		}
 	}
 }

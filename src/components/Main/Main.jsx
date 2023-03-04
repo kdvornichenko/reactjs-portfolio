@@ -10,7 +10,7 @@ const Main = () => {
 				<h1 className="text-center text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl">
 					Привет! Меня зовут Кирилл
 				</h1>
-				<h2 className="mt-2 flex text-2xl sm:text-3xl md:text-4xl md:mt-4 md:gap-1 ">
+				<h2 className="mt-2 flex md:mt-4 md:gap-1 ">
 					Я -
 					<TypeAnimation
 						sequence={[

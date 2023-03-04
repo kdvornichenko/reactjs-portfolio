@@ -5,7 +5,7 @@ const NavList = ({ handleNav }) => {
 		<a
 			key={item.link}
 			href={item.link}
-			className="w-3/4 p-4 flex justify-center items-center rounded-full shadow-md shadow-gray-900 bg-gray-100 cursor-pointer  transition-all md:w-auto md:hover:scale-110"
+			className="w-3/4 p-4 flex justify-center items-center rounded-full shadow-md shadow-gray-900 bg-gray-50 cursor-pointer  transition-all md:w-auto md:hover:scale-110 md:hover:bg-white"
 			onClick={handleNav}
 		>
 			{item.icon}

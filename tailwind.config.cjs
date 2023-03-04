@@ -20,6 +20,12 @@ module.exports = {
 			},
 			backgroundImage: {
 				wave: 'url("/src/assets/wave.png")',
+				coffeeHouseImg: 'url("/src/assets/coffee-house.png")',
+				conquestWatchShopImg: 'url("/src/assets/conquest-watch-shop.png")',
+				dashboardImg: 'url("/src/assets/dashboard.png")',
+				githubImg: 'url("/src/assets/github.png")',
+				sneakersShopImg: 'url("/src/assets/sneakers-shop.png")',
+				weikaTeachImg: 'url("/src/assets/weika-teach.png")',
 			},
 			colors: {
 				blueBG: '#4779f7',

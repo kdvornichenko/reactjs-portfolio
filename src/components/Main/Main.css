@@ -2,7 +2,7 @@
 	@apply absolute bottom-0 left-0 w-full h-[10vh] bg-wave bg-[length:100vw_10vh] md:h-[20vh] md:bg-[length:100vw_20vh];
 }
 .wave1 {
-	@apply bottom-0 animate-wave duration-20s delay-0s opacity-90 z-40;
+	@apply bottom-0 animate-wave duration-20s delay-0s z-40;
 }
 .wave2 {
 	@apply bottom-2.5 animate-wave-reverse duration-15s -delay-5s opacity-70 z-30;
