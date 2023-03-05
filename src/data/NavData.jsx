@@ -16,11 +16,13 @@ const NavData = [
 	{
 		icon: <BsPerson size={20} />,
 		link: 'https://drive.google.com/file/d/19YmKVaYI0Xi9XImIBr23CrkbYfeP4BNL/view?usp=sharing',
+		isNewTab: true,
 		text: 'Resume',
 	},
 	{
 		icon: <FaTelegram size={20} />,
 		link: 'https://t.me/mercyyy813',
+		isNewTab: true,
 		text: 'Contact',
 	},
 ]
