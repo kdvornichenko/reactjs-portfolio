@@ -2,13 +2,11 @@ import ProjectsData from '../../data/ProjectsData'
 
 const ProjectsCards = () => {
 	return (
-		<div
-		
-			className="mt-6 relative grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"
-		>
+		<div className="mt-6 relative grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
 			{ProjectsData.map((item) => (
 				<div
-					className={`relative bg-${item.image} bg-center bg-cover border-gray-200 border rounded-3xl shadow-md overflow-hidden hover:[&>.info]:opacity-100`}
+					className={`relative bg-${item.image} bg-center bg-cover rounded-3xl shadow-xl overflow-hidden hover:[&>.info]:opacity-100`}
+					style={{ WebkitBorderRadius: '1.5rem' }}
 					key={item.title}
 				>
 					<div className="info px-2 py-4 relative w-full h-full flex flex-col gap-2 items-center justify-center bg-blueBG/60 backdrop-blur-sm opacity-0 transition-opacity z-10 sm:gap-4 md:py-8">
