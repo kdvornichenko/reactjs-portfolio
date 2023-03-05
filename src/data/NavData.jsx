@@ -1,5 +1,6 @@
 import { AiOutlineHome, AiOutlineMail, AiOutlineProject } from 'react-icons/ai'
 import { BsPerson } from 'react-icons/bs'
+import { FaTelegram } from 'react-icons/fa'
 
 const NavData = [
 	{
@@ -18,8 +19,8 @@ const NavData = [
 		text: 'Resume',
 	},
 	{
-		icon: <AiOutlineMail size={20} />,
-		link: '#contact',
+		icon: <FaTelegram size={20} />,
+		link: 'https://t.me/mercyyy813',
 		text: 'Contact',
 	},
 ]
