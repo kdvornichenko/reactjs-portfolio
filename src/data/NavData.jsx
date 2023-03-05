@@ -14,7 +14,7 @@ const NavData = [
 	},
 	{
 		icon: <BsPerson size={20} />,
-		link: '#resume',
+		link: 'https://drive.google.com/file/d/19YmKVaYI0Xi9XImIBr23CrkbYfeP4BNL/view?usp=sharing',
 		text: 'Resume',
 	},
 	{

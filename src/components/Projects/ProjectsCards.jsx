@@ -6,7 +6,6 @@ const ProjectsCards = () => {
 			{ProjectsData.map((item) => (
 				<div
 					className={`relative bg-${item.image} bg-center bg-cover rounded-3xl shadow-xl overflow-hidden isolate hover:[&>.info]:opacity-100`}
-					style={{ WebkitBorderRadius: '1.5rem' }}
 					key={item.title}
 				>
 					<div className="info px-2 py-4 relative w-full h-full flex flex-col gap-2 items-center justify-center bg-blueBG/60 backdrop-blur-sm opacity-0 transition-opacity z-10 sm:gap-4 md:py-8">
