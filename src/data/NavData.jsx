@@ -1,4 +1,4 @@
-import { AiOutlineHome, AiOutlineMail, AiOutlineProject } from 'react-icons/ai'
+import { AiOutlineHome, AiOutlineProject } from 'react-icons/ai'
 import { BsPerson } from 'react-icons/bs'
 import { FaTelegramPlane } from 'react-icons/fa'
 

@@ -1,10 +1,3 @@
-// import coffeeHouseImg from '../assets/coffee-house.png'
-// import conquestWatchShopImg from '../assets/conquest-watch-shop.png'
-// import dashboardImg from '../assets/dashboard.png'
-// import githubImg from '../assets/github.png'
-// import sneakersShopImg from '../assets/sneakers-shop.png'
-// import weikaTeachImg from '../assets/weika-teach.png'
-
 const ProjectsData = [
 	{
 		title: 'Online Cinema',
