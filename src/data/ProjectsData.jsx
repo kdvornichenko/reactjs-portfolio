@@ -1,9 +1,9 @@
 const ProjectsData = [
 	{
-		title: 'Online Cinema',
-		image: 'githubImg',
-		description: 'Next.js + TS',
-		link: 'https://github.com/kdvornichenko',
+		title: 'Sultan Shop',
+		image: 'sultanShopImg',
+		description: 'React.js + TS + Redux',
+		link: 'https://kdvornichenko.github.io/sultan-shop/#/catalog',
 	},
 	{
 		title: 'Dashboard',

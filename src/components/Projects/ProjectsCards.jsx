@@ -25,7 +25,7 @@ const ProjectsCards = () => {
 					</div>
 				</div>
 			))}
-			<span className="bg-githubImg bg-weikaTeachImg bg-conquestWatchShopImg bg-coffeeHouseImg bg-dashboardImg bg-sneakersShopImg hidden"></span>
+			<span className="bg-githubImg bg-sultanShopImg bg-weikaTeachImg bg-conquestWatchShopImg bg-coffeeHouseImg bg-dashboardImg bg-sneakersShopImg hidden"></span>
 		</div>
 	)
 }

@@ -20,6 +20,7 @@ module.exports = {
 			},
 			backgroundImage: {
 				wave: 'url("/src/assets/wave.png")',
+				sultanShopImg: 'url("/src/assets/sultan-shop.png")',
 				coffeeHouseImg: 'url("/src/assets/coffee-house.png")',
 				conquestWatchShopImg: 'url("/src/assets/conquest-watch-shop.png")',
 				dashboardImg: 'url("/src/assets/dashboard.png")',
